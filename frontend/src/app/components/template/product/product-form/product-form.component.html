@@ -1,0 +1,17 @@
+<mat-card>
+    <mat-card-title>{{ title }}</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [(ngModel)]="data.name" name="name" [disabled]="disabled">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)" [(ngModel)]="data.price" name="price" [disabled]="disabled">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="onAction()" color="{{ btnColor }}">
+        {{ strAction }}
+    </button>
+    <button mat-raised-button (click)="onCancel()">
+        {{ strCancel }}
+    </button>
+</mat-card>
