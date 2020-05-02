@@ -42,6 +42,10 @@
 
 # Frontend
 
+#### Iniciando o Projeto
+> `$ ng new frontend --minimal`
+> `Pré processadores: CSS`
+
 #### Intalando o Angular Material
 > `$ ng add @angular/material`
 
@@ -50,7 +54,7 @@
 > `$ ng g c components/template/header`
 * **Modelo (interface)**
 > `$ ng g i components/template/header/header-data --type=model`
-* ** Serviço (services)**
+* **Serviço (services)**
 > `$ ng g s components/template/header/header`
 
 #### Rodapé (footer)
