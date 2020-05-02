@@ -43,7 +43,7 @@
 # Frontend
 
 #### Iniciando o Projeto
-> `$ ng new frontend --minimal`
+> `$ ng new frontend --minimal`  
 > `Pré processadores: CSS`
 
 #### Intalando o Angular Material
@@ -71,11 +71,11 @@
 
 #### Produtos
 * **Componente**
->`$ ng g c views/product-crud`
->`$ ng g c components/product/product-create`
->`$ ng g c components/product/product-read`
->`$ ng g c components/product/product-update`
->`$ ng g c components/product/product-delete`
+>`$ ng g c views/product-crud`  
+>`$ ng g c components/product/product-create`  
+>`$ ng g c components/product/product-read`  
+>`$ ng g c components/product/product-update`  
+>`$ ng g c components/product/product-delete`  
 * **Modelo (interface)**
 >`$ ng g i components/product/product --type=model`
 * **Serviços (services)**
